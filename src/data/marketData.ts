@@ -39,7 +39,7 @@ const VOLATILITY = {
  * Transportation cost factor
  * Represents the cost difference between cities due to logistics
  */
-const TRANSPORT_FACTOR = 1.05; // 5% difference between cities
+//const TRANSPORT_FACTOR = 1.05; // 5% difference between cities
 
 /**
  * Generate random price fluctuation
@@ -229,4 +229,5 @@ export function calculateMarketEfficiency(prices1: number[], prices2: number[]):
   
   // Convert correlation to efficiency score (0-1)
   return Math.abs(correlation);
+
 }
