@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { TrendingUp, TrendingDown, BarChart3, MapPin } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { TrendingUp, BarChart3, MapPin } from 'lucide-react';
 import Header from './components/Header';
 import PriceCard from './components/PriceCard';
 import PriceChart from './components/PriceChart';
@@ -252,5 +252,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
